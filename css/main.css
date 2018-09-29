@@ -1,19 +1,33 @@
 ﻿body {
 	font-family: 'Ubuntu', sans-serif;
+	margin: 40px auto;
+	max-width: 650px;
+	line-height: 1.6;
+	font-size: 18px;
+	color: #454545;
+	padding: 0 10px;
 	text-align: center;
 }
+
 .fullname {
 	font-weight: normal;
 	font-size: 3em;
 }
+
 a {
 	text-decoration: none;
 	color: black;
 	border-bottom: 1px solid black;
 }
+
 a:hover {
 	border-bottom: 0px;
 }
+
 a:visited {
 	color: black;
+}
+
+h1 {
+	line-height: 1.2
 }
